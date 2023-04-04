@@ -4,7 +4,10 @@ function App() {
   return (
     <div className="App">
       <div>Simplify your links</div>
-      <input className="" placeholder="Your Original URL here " type="link" />
+      <div className="linkk">
+        <input className="" placeholder="Your Original URL here " type="link" />
+        <button>SHORTEN URL</button>
+      </div>
     </div>
   );
 }
