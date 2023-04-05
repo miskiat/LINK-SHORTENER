@@ -1,7 +1,16 @@
 .App {
-  background-color: rgb(241, 197, 241);
+  background-color: white;
   justify-content: center;
   align-items: center;
+  /* margin: 20rem; */
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.section {
+  background-color: rgb(241, 197, 241);
+  height: 60vh;
+  width: 50vw;
   margin: 20rem;
 }
 .header {
@@ -16,5 +25,9 @@
 .button {
   background-color: rgb(245, 83, 245);
 }
-.link {
+.linkk {
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: tomato;
 }
