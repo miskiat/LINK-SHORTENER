@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="header">Misky's URL Shortener</h1>
-      <div className="">Simplify your links</div>
+      <div className="main">Simplify your links</div>
       <div className="linkk">
         <input className="" placeholder="Your Original URL here " type="link" />
         <button>SHORTEN URL</button>
