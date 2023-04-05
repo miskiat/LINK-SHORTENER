@@ -7,7 +7,7 @@ function App() {
       <div className="main">Simplify your links</div>
       <div className="linkk">
         <input className="" placeholder="Your Original URL here " type="link" />
-        <button>SHORTEN URL</button>
+        <button className="button">SHORTEN URL</button>
       </div>
       <p>
         All Misky's URLs and click analytics are public and can be accessed by
