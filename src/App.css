@@ -12,6 +12,7 @@
   height: 60vh;
   width: 50vw;
   margin: 20rem;
+  padding-left: 3rem;
 }
 .header {
   font-weight: 500;
@@ -24,10 +25,20 @@
 }
 .button {
   background-color: rgb(245, 83, 245);
+  height: 3rem;
+  width: 8rem;
+}
+:hover button {
+  background-color: rgb(129, 3, 129);
+  text: white;
 }
 .linkk {
-  margin-left: 2rem;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: tomato;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.input {
+  border-radius: 0.5rem;
+  width: 20rem;
+  padding-left: 1rem;
 }

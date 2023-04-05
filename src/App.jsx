@@ -8,7 +8,7 @@ function App() {
         <div className="main">Simplify your links</div>
         <div className="linkk">
           <input
-            className=""
+            className="input"
             placeholder="Your Original URL here "
             type="link"
           />
