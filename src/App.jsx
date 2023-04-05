@@ -3,8 +3,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Misky's URL Shortener</h1>
-      <div>Simplify your links</div>
+      <h1 className="header">Misky's URL Shortener</h1>
+      <div className="">Simplify your links</div>
       <div className="linkk">
         <input className="" placeholder="Your Original URL here " type="link" />
         <button>SHORTEN URL</button>
