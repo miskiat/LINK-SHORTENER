@@ -10,7 +10,7 @@
 .section {
   background-color: rgb(241, 197, 241);
   height: 60vh;
-  width: 50vw;
+  width: 60vw;
   margin: 20rem;
   padding-left: 3rem;
 }
@@ -48,6 +48,10 @@
   border-radius: 0.5rem;
   width: 20rem;
   padding-left: 1rem;
+  /* color: blueviolet; */
+}
+.placeholder {
+  color: brown;
 }
 .note {
   color: rgb(110, 8, 102);
