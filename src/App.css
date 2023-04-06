@@ -28,14 +28,17 @@
   color: rgb(88, 8, 163);
 }
 .button {
-  background-color: rgb(245, 83, 245);
+  background-color: rgb(167, 92, 167);
   height: 3rem;
   width: 8rem;
+  color: rgb(227, 210, 243);
 }
-:hover button {
-  background-color: rgb(129, 3, 129);
+.button:hover {
+  background-color: rgb(151, 72, 151);
   text: white;
+  color: rgb(151, 109, 190);
 }
+
 .linkk {
   margin-top: 3rem;
   display: flex;
