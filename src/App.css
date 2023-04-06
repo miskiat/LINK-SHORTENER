@@ -22,6 +22,10 @@
 .main {
   font-weight: 200;
   font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(88, 8, 163);
 }
 .button {
   background-color: rgb(245, 83, 245);
