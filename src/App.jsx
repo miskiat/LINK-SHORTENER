@@ -14,6 +14,10 @@ function App() {
           />
           <button className="button">SHORTEN URL</button>
         </div>
+        <div>
+          <div className="box"></div>
+          <button>ggg</button>
+        </div>
         <p className="note">
           All Misky's URLs and click analytics are public and can be accessed by
           anyone
