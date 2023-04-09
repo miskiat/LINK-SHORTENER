@@ -14,9 +14,9 @@ function App() {
           />
           <button className="button">SHORTEN URL</button>
         </div>
-        <div>
+        <div className="result">
           <div className="box"></div>
-          <button>ggg</button>
+          <button>Copy</button>
         </div>
         <p className="note">
           All Misky's URLs and click analytics are public and can be accessed by
