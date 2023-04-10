@@ -16,7 +16,7 @@ function App() {
         </div>
         <div className="result">
           <div className="box"></div>
-          <button>Copy</button>
+          <button>COPY</button>
         </div>
         <p className="note">
           All Misky's URLs and click analytics are public and can be accessed by
