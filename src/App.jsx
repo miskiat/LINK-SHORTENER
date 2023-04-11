@@ -1,4 +1,5 @@
 import "./App.css";
+import BackgroundAnimation from "./Components/BackgroundAnimation/BackgroundAnimation";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           anyone
         </p>
       </div>
+      <BackgroundAnimation />
     </div>
   );
 }
