@@ -19,6 +19,14 @@ function App() {
           <div className="box"></div>
           <button>COPY</button>
         </div>
+        <div>
+          <li>
+            Paste the link to be truncated or shortened in the input field.
+          </li>
+          <li></li>
+          .Clik the Shortify button. Copy the link generated in the paragraph
+          field by clicking the copy button
+        </div>
         <p className="note">
           All Misky's URLs and click analytics are public and can be accessed by
           anyone
