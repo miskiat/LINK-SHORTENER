@@ -68,6 +68,9 @@
   background-color: rgb(255, 251, 255);
   border-radius: 0.5rem;
 }
+.instruction {
+  color: rgb(88, 8, 163);
+}
 .note {
   color: rgb(177, 8, 177);
   display: flex;

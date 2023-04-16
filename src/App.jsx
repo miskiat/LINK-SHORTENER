@@ -19,7 +19,7 @@ function App() {
           <div className="box"></div>
           <button>COPY</button>
         </div>
-        <div>
+        <div className="instruction">
           <li>
             Paste the link to be truncated or shortened in the input field.
           </li>
