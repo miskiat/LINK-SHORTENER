@@ -71,6 +71,7 @@
 .instruction {
   color: rgb(88, 8, 163);
   margin-top: 3rem;
+  font-size: 1.2rem;
 }
 .note {
   color: rgb(177, 8, 177);
@@ -78,4 +79,5 @@
   align-items: center;
   justify-content: center;
   padding-top: 5rem;
+  font-size: 1.2rem;
 }
