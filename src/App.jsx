@@ -1,8 +1,10 @@
 import "./App.css";
+import BackgroundAnimation from "./Components/BackgroundAnimation/BackgroundAnimation";
 
 function App() {
   return (
     <div className="App">
+      <BackgroundAnimation />
       <div className="section">
         <h1 className="header">Misky's URL Shortener</h1>
         <div className="main">Simplify your links</div>
