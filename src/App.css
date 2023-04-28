@@ -65,6 +65,7 @@
   width: 40rem;
   background-color: rgb(255, 251, 255);
   border-radius: 0.5rem;
+  padding: 1rem;
 }
 .instruction {
   color: rgb(88, 8, 163);

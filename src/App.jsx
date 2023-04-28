@@ -1,7 +1,27 @@
+import { useState } from "react";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import "./App.css";
 import BackgroundAnimation from "./Components/BackgroundAnimation/BackgroundAnimation";
 
 function App() {
+  const [urlInput, setUrlInput] = useState("");
+  const [shortLink, setShortLink] = useState("");
+  const [isCopied, setIsCopied] = useState(false);
+
+  const fetchShortLink = () => {
+    fetch(`https://api.shrtco.de/v2/shorten?url=${urlInput}`)
+      .then((response) => response.json())
+      .then((value) => {
+        setShortLink(value.result.full_short_link);
+      });
+  };
+
+  const handleCopy = () => {
+    setIsCopied(true);
+
+    setTimeout(() => setIsCopied(false), 2000);
+  };
+
   return (
     <div className="App">
       <BackgroundAnimation />
@@ -13,12 +33,18 @@ function App() {
             className="input"
             placeholder="Your Original URL here "
             type="link"
+            value={urlInput}
+            onChange={(e) => setUrlInput(e.target.value)}
           />
-          <button className="button">SHORTEN URL</button>
+          <button className="button" onClick={fetchShortLink}>
+            SHORTEN URL
+          </button>
         </div>
         <div className="result">
-          <div className="box"></div>
-          <button>COPY</button>
+          <div className="box">{shortLink} </div>
+          <CopyToClipboard text={shortLink} onCopy={handleCopy}>
+            <button>{shortLink && isCopied ? "COPIED ✅" : "COPY"}</button>
+          </CopyToClipboard>
         </div>
         <div className="instruction">
           <li>
